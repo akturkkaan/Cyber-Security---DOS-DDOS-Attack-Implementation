@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+winpcapy/__init__.py
+winpcapy/winpcapy.py
+winpcapy/winpcapy_types.py
+winpcapy.egg-info/PKG-INFO
+winpcapy.egg-info/SOURCES.txt
+winpcapy.egg-info/dependency_links.txt
+winpcapy.egg-info/top_level.txt
