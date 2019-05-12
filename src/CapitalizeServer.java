@@ -15,7 +15,7 @@ public class CapitalizeServer {
         ServerSocket ss2=null;
         System.out.println("Server Listening......");
         try{
-            ss2 = new ServerSocket(4445); // can also use static final PORT_NUM , when defined
+            ss2 = new ServerSocket(5056); // can also use static final PORT_NUM , when defined
 
         }
         catch(IOException e){
